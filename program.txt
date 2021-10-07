@@ -1,0 +1,14 @@
+    Function Distance3D(x, y, z) 
+    real:: x, y, z 
+        Distance3D = sqrt(x**2 + y**2 + z**2) 
+    End Function Distance3D 
+     
+    Program Tester 
+    real:: x, y, z, length 
+        Print *, "3D Distance Test" 
+        x = 2 
+        y = 2 
+        z = 1 
+        length = Distance3D(x, y, z) 
+        Print *, "The distance is d = ", length 
+    End Program Tester 
